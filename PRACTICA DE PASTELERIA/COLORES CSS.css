@@ -1,0 +1,31 @@
+/*hola este solo es un codifo apra predeterminar colores esto lo conectaras aun codigo
+ html con el comandro <link rel="stylesheet" href="./">*/
+    *{font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+.colorRojo{
+    color: rgb(125, 248, 238);
+}
+a{
+    color: rgb(7, 255, 222);
+}
+
+.colorRGB{
+    color: rgb(0, 0, 0);
+}
+
+.colorRGBA{
+    color: rgba(93, 217, 94, 0.6);/*el ultimo digito es para la tasprarencia */
+}
+
+.colorHEX{
+    color: #EE43E3;
+}
+
+.colorHSL{
+    color: hsl(30, 68%, 31%);
+}

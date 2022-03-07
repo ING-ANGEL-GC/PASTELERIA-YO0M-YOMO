@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=decive-width, initial-scale=1.0">
+    <title>pasteleria</title>
+    <link rel="stylesheet" href="./textos.css">
+    <link rel="stylesheet" href="./COLORES CSS.css">
+    <link rel="stylesheet" href="./FONDOS.css">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: rgb(230, 54, 192);
+        }
+        .contraste{
+            background-color: rgb(112, 0, 163);
+        }
+        
+    </style>
+    <body><h3 class="derecha contraste"> <p class="derecha"><p class="colorRojo"><a href="./PRACTICA.html" target="blank">INICIO</a>| REGISTRARSE </p></p></h3>
+        <p class="centrado"><img src="./autodraw 5_3_2022 22_03_29.png" height="200px" width="600px"></p><hr>
+        <h2>menu de panes</h2>
+        <p>PAN DE FRESA...... 200 pesos</p>
+        <p>PAN DE CHOCOLATE.....250 pesos</p>
+        <p>PAN DE vainilla...... 200 pesos</p>
+        <hr>
+        <h3>paquetes </h3>
+        <dt>PAQUETE 1</dt>
+            
+            <dd> DOS PANES SIN COMPLEMENTOS........ 300 PESOS</dd>
+            <dt>ppaquete 2 </dt>
+            
+            <dd>3 PASTELES CON SUS DECORACIONES DE SU ELECCION......1200 PESOS</dd>
+        </dl>
+        <br><hr>
+        <h2>DECORACIONES </h2>
+        <ul>
+            <li>FRESAS 100 PESOS CADA 200GR</li>
+            <li>GLASEADO 200 POR PASTEL</li>
+            <li>BETUN 200 POR CADA 100GR</li>
+            <hr>
+            <h1>AQUI SE HACE EL PEDIDO</h1>
+<form action="java. js">
+    <label for="nombre">nombre del comprador</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="NOMBRE"><br><br>
+    <label for="correo1">Correo de CONTACTO</label><br><!--solo aceptara cosas con arroba y punto en lo excrito se necesita mas codigo para que funcione xd-->
+<input type="email" id="correo1" name="correo1"><br><br>
+
+
+<label for="tel1"> Teléfono de CONTACTO</label><br><!--solo se aceptan numeros pero el maxlegth marcara el limite datos-->
+<input type="tel" id="tel1" name="tel1" maxlength="10"><br><br><!--tambien exitse un minlaength sive para exigir un minimo de digitos-->
+
+
+
+    <label for="mesa">que paquete quieres, si no es por paquete salte la pregunta</label><br>
+    <input type="number" id="mesa" name="mesa"><br><br>
+    <p>para llevar o para comer aqui</p>
+
+    <input type="radio" id="llevar" name="llevar o quedar" value="LLEVAR">
+<label for="llevar">LLEVAR</label><br>
+<input type="radio" id="aqui" name="llevar o quedar" value="AQUI">
+<label for="aqui">AQUI</label><br><br>
+<p>CUANTOS PASTELES QUIERES</p>
+<input type="checkbox" id="luna" name="luna" value="LUNA"><!--este input es para incisos de seleccion multiple-->
+<label for="LUNA">PAN DEvainilla </label><br>
+<input type="number" id="mesa" name="mesa"placeholder="cauntos"><br><br><!--input= aporte , label=equiqueta -->
+<input type="checkbox" id="tierra" name="tierra" value="Tierra">
+<label for="Tierra">PAN DE FRESA </label><br>
+<input type="number" id="mesa" name="mesa"placeholder="cauntos"><br>
+<label for="Tierra">PAN DE CHOCOLATE </label><br>
+<input type="number" id="mesa" name="mesa"placeholder="cauntos"><br>
+<p>DE DECORADO?</p>
+<select name="refresco" id="refresco">
+    <option value="coca">SI</opcion>
+        <option value="FANTA">NO</opcion>
+<select>
+    <p>SI LA RESPUESTA FUE SI CONTESTE LO SIGUIENTE </p>
+    <p>QUE DECORADO VA A QUERER</p>
+
+    <input type="radio" id="llevar" name="llevar o quedar" value="LLEVAR">
+<label for="llevar">GLASEADO</label><br>
+<input type="radio" id="aqui" name="llevar o quedar" value="AQUI">
+<label for="aqui">BETUN</label><br>
+<input type="radio" id="aqui" name="llevar o quedar" value="AQUI">
+<label for="aqui">FRESAS</label><br><br>
+<h2> PARA CUAL PASTEL</h2>
+<input type="radio" id="llevar" name="llevar o quedar" value="LLEVAR">
+<label for="llevar">PAN DE FRESA</label><br>
+<input type="radio" id="aqui" name="llevar o quedar" value="AQUI">
+<label for="aqui">PAN DE CHOCOLATE</label><br>
+<input type="radio" id="aqui" name="llevar o quedar" value="AQUI">
+<label for="aqui">PAN DE vainilla</label><br><br>
+<br><br>
+
+<label for="tel1"> describe tu orden porfavor </label><br><!--solo se aceptan numeros pero el maxlegth marcara el limite datos-->
+<input type="tel" id="tel1" name="tel1" ><br><br><!--tambien exitse un minlaength sive para exigir un minimo de digitos-->
+
+<input type="reset">
+<input type="submit">
+</form>
+
+    </body>
